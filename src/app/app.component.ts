@@ -11,16 +11,10 @@ import { TypogramComponent } from './typogram/typogram.component';
 })
 export class AppComponent {
   typogram = `
-  +-----+            +-----+
-  |  A  |            |  B  |
-  +--+--+            +--+--+
-     | foo              |
-     |----------------->|
-     | hello            |
-     |----------------->|--+
-     |           world  |  | prompts the user
-     |<-----------------|--+
-     |                  |
-   --+--              --+--
+    _   
+   / \\  
+  / △ \\ 
+ / ___ \\ 
+/_/   \\_\\ngular
   `;
 }
