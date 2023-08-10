@@ -10,11 +10,11 @@ import { TypogramComponent } from './typogram/typogram.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  typogram = `
+  typogram = String.raw`
     _   
-   / \\  
-  / △ \\ 
- / ___ \\ 
-/_/   \\_\\ngular
+   / \  
+  / △ \ 
+ / ___ \ 
+/_/   \_\ngular
   `;
 }
